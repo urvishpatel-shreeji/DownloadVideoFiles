@@ -21,7 +21,6 @@
 		492ED521267A24F00084F062 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492ED511267A24F00084F062 /* ColorExtension.swift */; };
 		492ED522267A24F00084F062 /* SRServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492ED512267A24F00084F062 /* SRServiceManager.swift */; };
 		492ED523267A24F00084F062 /* SRDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492ED514267A24F00084F062 /* SRDownloadModel.swift */; };
-		492ED527267A24F00084F062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492ED51B267A24F00084F062 /* ViewController.swift */; };
 		492ED533267A315B0084F062 /* SRLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492ED532267A315B0084F062 /* SRLoader.swift */; };
 		4970537C267A376600448BAC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970537B267A376600448BAC /* Constant.swift */; };
 		4970537F267A38B900448BAC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970537E267A38B900448BAC /* Movie.swift */; };
@@ -32,7 +31,6 @@
 		49705392267A3F7A00448BAC /* MediaTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49705390267A3F7A00448BAC /* MediaTableCell.swift */; };
 		49705393267A3F7A00448BAC /* MediaTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49705391267A3F7A00448BAC /* MediaTableCell.xib */; };
 		4970539D267A658A00448BAC /* MediaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4970539C267A658A00448BAC /* MediaDetailViewController.swift */; };
-		497053A9267A766200448BAC /* MoviePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497053A8267A766200448BAC /* MoviePlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +50,6 @@
 		492ED511267A24F00084F062 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		492ED512267A24F00084F062 /* SRServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRServiceManager.swift; sourceTree = "<group>"; };
 		492ED514267A24F00084F062 /* SRDownloadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRDownloadModel.swift; sourceTree = "<group>"; };
-		492ED51B267A24F00084F062 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		492ED532267A315B0084F062 /* SRLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRLoader.swift; sourceTree = "<group>"; };
 		4970537B267A376600448BAC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		4970537E267A38B900448BAC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -63,7 +60,6 @@
 		49705390267A3F7A00448BAC /* MediaTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableCell.swift; sourceTree = "<group>"; };
 		49705391267A3F7A00448BAC /* MediaTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediaTableCell.xib; sourceTree = "<group>"; };
 		4970539C267A658A00448BAC /* MediaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailViewController.swift; sourceTree = "<group>"; };
-		497053A8267A766200448BAC /* MoviePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerViewController.swift; sourceTree = "<group>"; };
 		946240FF39EF9D99E3694A04 /* Pods-TheOnePractical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheOnePractical.debug.xcconfig"; path = "Target Support Files/Pods-TheOnePractical/Pods-TheOnePractical.debug.xcconfig"; sourceTree = "<group>"; };
 		9724BD6B9EB05E656BFF603D /* Pods_TheOnePractical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheOnePractical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,10 +165,8 @@
 		492ED51A267A24F00084F062 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				492ED51B267A24F00084F062 /* ViewController.swift */,
 				4970538A267A3CA700448BAC /* MediaListViewController.swift */,
 				4970539C267A658A00448BAC /* MediaDetailViewController.swift */,
-				497053A8267A766200448BAC /* MoviePlayerViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -317,7 +311,6 @@
 				4970538E267A3F0600448BAC /* MediaListTableView.swift in Sources */,
 				4970538B267A3CA700448BAC /* MediaListViewController.swift in Sources */,
 				4970537C267A376600448BAC /* Constant.swift in Sources */,
-				497053A9267A766200448BAC /* MoviePlayerViewController.swift in Sources */,
 				492ED533267A315B0084F062 /* SRLoader.swift in Sources */,
 				492ED520267A24F00084F062 /* FontExtension.swift in Sources */,
 				49705387267A3B1300448BAC /* Category.swift in Sources */,
@@ -328,7 +321,6 @@
 				492ED4E2267A1BEE0084F062 /* SceneDelegate.swift in Sources */,
 				49705384267A38E700448BAC /* BaseModel.swift in Sources */,
 				49705392267A3F7A00448BAC /* MediaTableCell.swift in Sources */,
-				492ED527267A24F00084F062 /* ViewController.swift in Sources */,
 				492ED51D267A24F00084F062 /* SRFileManager.swift in Sources */,
 				492ED523267A24F00084F062 /* SRDownloadModel.swift in Sources */,
 				492ED51C267A24F00084F062 /* SRDownloadManager.swift in Sources */,

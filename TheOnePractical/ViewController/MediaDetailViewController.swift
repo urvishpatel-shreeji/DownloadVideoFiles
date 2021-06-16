@@ -23,7 +23,7 @@ class MediaDetailViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    
+    //MARK: - Setup UI
     private func setupUI(){
         self.title = "Details"
         #if DEBUG
@@ -108,6 +108,7 @@ class MediaDetailViewController: UIViewController {
             SRDownloadManager.shared.resumeDownload(model:model.downloadModel)
         }
     }
+    //MARK: - Navigation
     private func openMoviePlayerViewController(withMovie movie:Movie){
         
         let filePath = SRFileManager.baseFilePath + "/" + movie.downloadModel.fileName

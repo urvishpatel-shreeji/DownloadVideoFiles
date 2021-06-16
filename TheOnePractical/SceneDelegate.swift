@@ -20,8 +20,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         #if DEBUG
         window?.overrideUserInterfaceStyle = .light
+    
         #else
         window?.overrideUserInterfaceStyle = .dark
+        
+
+
         #endif
         
         
